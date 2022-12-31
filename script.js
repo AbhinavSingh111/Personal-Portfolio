@@ -60,12 +60,12 @@ function check() {
     }
     
 }
-window.addEventListener("keyup", check);
-window.addEventListener("click", check);
-document.getElementById("#clientdetails").addEventListener("submit", function(e){
-    if(!isValid){
-        e.preventDefault();    //stop form from submitting
-    }
-  	//do whatever an submit the form
-      document.getElementById('clientdetails').reset();
-});
+// window.addEventListener("keyup", check);
+// window.addEventListener("click", check);
+// document.getElementById("#clientdetails").addEventListener("submit", function(e){
+//     if(!isValid){
+//         e.preventDefault();    //stop form from submitting
+//     }
+//   	//do whatever an submit the form
+//       document.getElementById('clientdetails').reset();
+// });
